@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/************ VARIABLES *************/
+:root {
+    --bright: #FF52C1;
+    --dark: #00252E;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-size: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 28px;
+}
+
+.logo {
+    width: 96px;
+}
+
+.try {
+    border: 1px solid var(--bright);
+    padding: 5.29px 18.24px;
+    border-radius: 25px;
+    color: var(--bright);
+    font-size: 0.67em;
+}
+
+/************ HERO *************/
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-top: 112px;
+}
+
+.hero .container {
+    width: 296px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+/************* FOOTER *************/
+
+footer {
+    padding-top: 100px;
+}
